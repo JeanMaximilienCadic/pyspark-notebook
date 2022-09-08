@@ -13,6 +13,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: make build_docker_sandbox
-    - name: Publish package
-      run : pip install twine && twine upload dist/*.whl --skip-existing -u jcadic -p ${{ secrets.PYPI }} 
+      run: make build_docker
