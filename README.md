@@ -1,6 +1,6 @@
 # Docker PySpark with Jupyter
 
-[![GitHub actions badge](https://github.com/JeanMaximilienCadic/pyspark-notebook/workflows/Docker/badge.svg)](https://github.com/JeanMaximilienCadic/pyspark-notebook/workflows/Docker/badge.svg "Docker images build status")
+[![GitHub actions badge](https://github.com/JeanMaximilienCadic/pyspark-notebook/workflows/PySpark%20Docker%20Image/badge.svg)](https://github.com/JeanMaximilienCadic/pyspark-notebook/workflows/PySpark%20Docker%20Image/badge.svg "Docker images build status")
 [![Binder badge](https://static.mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JeanMaximilienCadic/pyspark-notebook/master "Launch a cadic/pyspark-notebook container on mybinder.org")
 
 `Docker PySpark with Jupyter` containins Jupyter applications and interactive computing tools.
