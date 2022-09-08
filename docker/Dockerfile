@@ -23,5 +23,5 @@ COPY docker/static/start.sh /usr/local/bin/
 WORKDIR /workspace
 RUN sudo chown foo:foo /workspace
 
-
+RUN pip install pyspark
 USER foo
