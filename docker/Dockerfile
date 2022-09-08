@@ -16,7 +16,7 @@ ENV HOME /home/foo
 ENV NB_USER foo
 
 RUN rm /usr/local/bin/start.sh
-COPY start.sh /usr/local/bin/
+COPY static/start.sh /usr/local/bin/
 WORKDIR /workspace
 RUN sudo chown foo:foo /workspace
 
