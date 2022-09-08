@@ -1,7 +1,7 @@
 # Docker PySpark with Jupyter
 
-[![GitHub actions badge](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml/badge.svg)](https://github.com/JeanMaximilienCadic/pyspark-notebook/.github/workflows/docker-image.yml "Docker images build status")
-[![Binder badge](https://static.mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JeanMaximilienCadic/pyspark-notebook.git/master "Launch a cadic/pyspark-notebook container on mybinder.org")
+[![GitHub actions badge](https://github.com/JeanMaximilienCadic/pyspark-notebook/blob/master/.github/workflows/docker-image.yml/badge.svg)](https://github.com/JeanMaximilienCadic/pyspark-notebook/blob/master/.github/workflows/docker-image.yml "Docker images build status")
+[![Binder badge](https://static.mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JeanMaximilienCadic/pyspark-notebook/master "Launch a cadic/pyspark-notebook container on mybinder.org")
 
 `Docker PySpark with Jupyter` containins Jupyter applications and interactive computing tools.
 You can use it to do any of the following (and more):

@@ -5,5 +5,7 @@ ARG NB_UID 100
 
 ENV TAG="binder_cadic_pyspark_notebook"
 
+COPY --chown=${NB_UID}:${NB_GID} binder/main.ipynb "/workspace/main.ipynb"
+
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
