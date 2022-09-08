@@ -1,5 +1,8 @@
 FROM jupyter/pyspark-notebook
 
+LABEL maintainer="CADIC Jean Maximilien <maintainer@cadic.jp>"
+ENV TAG="cadic_pyspark_notebook"
+
 USER root
 RUN sudo userdel jovyan
 RUN sudo rm -r /home/jovyan
@@ -16,8 +19,9 @@ ENV HOME /home/foo
 ENV NB_USER foo
 
 RUN rm /usr/local/bin/start.sh
-COPY static/start.sh /usr/local/bin/
+COPY docker/static/start.sh /usr/local/bin/
 WORKDIR /workspace
 RUN sudo chown foo:foo /workspace
+
 
 USER foo
